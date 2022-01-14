@@ -1,0 +1,56 @@
+@import url('https://coolors.co/d3b99f-80787f-2c365e-484d6d-4a6e7d-4b8f8c-c17767-889395-c5979d');
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Comforter+Brush&family=Philosopher&display=swap');
+
+header{
+    display:grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+.banner{
+    background-color: #889395;
+}
+img {
+    padding: 25px;
+    align-items:stretch; 
+}
+h2{
+    padding: 1em;
+    float: right;
+    font-family: 'Allura', cursive;
+    color: #D3B99F;
+    font-size: 70px;
+    margin-right: 50px;
+}
+h3{
+    font-family: 'Philosopher', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    grid-column: 2/4;
+}
+ul{
+    font-family: 'Philosopher', sans-serif;
+    font-size: x-large;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    grid-column: 2/4;
+    grid-row:2/4;
+}
+#content {
+   max-width: 100%;
+   margin: 0 auto; 
+}
+#homegrid {
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    grid-gap: 5px;
+    justify-content: space-around;
+}
+footer.p {
+    font-family: 'Philosopher', sans-serif;
+}
+footer {
+    background-color: #C5979D;
+    justify-content: center;
+    padding: 10px;
+}
